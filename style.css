@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(240, 236, 233);
+    height: 200vh;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-top{
+   
+    background-color: #fff;
+    width: 100%;
+    height: 16vh;
+    padding: 26px;
+}
+.text-content{
+    display: flex;
+    align-items: center;
+}
+.para-text{
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    margin: 0px 4px;
+}
+.span-text{
+    padding: 0px 6px;
+}
+.icon-social{
+    color: darkred;
+    font-size: 20px;
+    padding: 0px 5px;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+.icon-social:hover{
+    color:green ;
+}
+
+.navbar-container{
+    position: absolute;
+    
+    top: 70px;
+    left: 52px;
+    width: 90%;
+    background-color: rgb(197, 240, 214);
+    padding: 16px 38px;
+    z-index: 55;
+
+}
+.heading-logo{
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.heading-logo span{
+    color: gold;
+}
+.nav-item .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.nav-item .nav-link:hover{
+    color: gold;
+}
+.home-section{
+    width: 100%;
+    height: 84%;
+}
+.home-content{
+    width: 100%;
+    height: 84vh;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -55;
+   
+}
+.img-1{
+    background-image: url(./images/img\ 1.jpg);
+    
+}
+.content-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(241, 12, 12);
+}
+.heading-home{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.heading-lg-home{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.btn-home{
+    display: inline-block;
+    padding: 18px 38px;
+    background-color: rgb(223, 247, 11);
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600px;
+    margin: 28px 0px 0px;
+    border-radius: 10px;
+
+}
+.btn-home:hover{
+    color: black;
+    background-color: aquamarine;
+}
+.img-2{
+    background-image: url(./images/img\ 2.jpg);
+}
+.img-3{
+    background-image: url(./images/img\ 3.jpg);
+}
+.img-4{
+    background-image: url(./images/img\ 4.jpg);
+}
+.about{
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+}
+.heading-about{
+    color: black;
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0px;
+}
+.para-about{
+    display: block;
+    color: black;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 0px;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+.about-us-content{
+    margin-top: 50px;
+}
+.img-about{
+    width: 100%;
+    height: 380px;
+
+}
+.image-content{
+    width: 100%;
+    height: 100%;
+}
+
+.para-content-about{
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: 500;
+    color: black;
+}
+.services{
+    width: 100%;
+    height: auto;
+    padding: 24px 0px;
+    text-align: center;
+
+}
+.heading_sm{
+    text-transform: uppercase;
+    color: rgb(249, 96, 7);
+    letter-spacing: 3px;
+    font-size: 21px;
+}
+.heading-lg{
+    font-size: 44px;
+    font-weight: 800;
+    margin: 20px opx;
+}
+.container-services{
+  margin-top: 66px; 
+}
+.content-services{
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px 14px; */
+    transition: 0.3s ease-in;
+}
+.img-service{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 11px;
+}
+.heading-tour{
+    font-size: 19px;
+    margin: 7px 0px;
+    font-weight: 700;
+}
+.para-tour{
+   font-size: 14px;
+   color: black;
+   font-weight: 600; 
+   line-height: 26px;
+   margin: 8px 0px;
+}
+.btn-service{
+    display: inline-block;
+    padding: 10px 26px;
+    background-color: rgb(242, 128, 6);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 30px;
+    margin: 10px 0px;
+    color: black;
+    transition: 0.2s ease;
+}
+.content-services:hover{
+    transform: translateY(-6px);
+    box-shadow: 2px 2px 14px grey;
+}
+.content-services:hover .btn-service{
+background-color: blue;
+color: #fff;
+}
+.packages{
+    width: 100%;
+    height: auto;
+    padding: 16px 0px;
+    margin: 30px 0px;
+    text-align: center;
+}
+.container-packages{
+    margin-top: 62px;
+}
+.content-packages{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    transition: 0.2s ease;
+}
+.content-packages:hover{
+    box-shadow: 1px 1px 10px gray;
+}
+.img-package{
+    width: 100%;
+    height: 240px;
+}
+.image-package{
+    width: 100%;
+    height: 100%;
+}
+.content-package-container{
+    padding: 18px;
+}
+.details-package{
+    display: flex;
+    justify-content:space-between;
+}
+.icon-detail{
+    color: rgb(244, 12, 155);
+    padding: 0px 8px;
+    font-size: 13px;
+}
+.detail-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.heading-content-package{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    color: black;
+    margin: 8px 0px;
+}
+.rating{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.rate{
+  font-size: 15px;
+  font-weight: 500;  
+}
+.stars{
+    color: rgb(243, 13, 189);
+    font-size: 15px;
+    padding: 0px 8px;
+}
+
+.book{
+    padding: 50px;
+}
+.main-text h1{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 800;
+    margin: 20px opx;
+    color: black;
+}
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .row{
+    margin-top: 30px;
+}
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .submit{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(242, 128, 6);
+    color: black;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    background-color: blue;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(37, 41, 41);
+    padding: 24px;
+}
+.footer-container{
+    margin-top: 20px;
+    padding: 30px 4px 9px 4px;
+}
+.footer-logo{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.footer-para{
+    font-size: 14px;
+    line-height: 30px;
+    color: whitesmoke;
+    margin: 25px 0px;
+}
+.heading-sm-footer{
+    color: whitesmoke;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin: 18px 0px;
+
+}
+.social-links-footer{
+    margin: 16px 0px;
+}
+.icon-social-footer{
+    font-size: 21px;
+    padding: 9px;
+    border: 1px solid rgb(4, 255, 4);
+    color: rgb(3, 251, 3);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.icon-social-footer:hover{
+    background-color: rgb(4, 249, 4);
+    color: whitesmoke;
+} 
+.pages-footer{
+    padding: 6px 18px;
+}
+.heading-pages{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 18px;
+
+}
+.footer-link{
+    font-size: 15px !important;
+    color: wheat !important;
+}
+.footer-link:hover{
+    color: rgb(5, 250, 5) !important;
+}
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+}
+.text-contact{
+    margin: 16px 0px;
+    color: wheat;
+    font-size: 19px;
+
+}
+.footer-icons{
+    font-size: 19px;
+    color: rgb(0, 255, 0);
+    padding: 0px 9px;
+}
+
+
+
+
+
+@media(max-width:1500px){
+
+    .navbar-container{
+        position: absolute;
+        top: 58px;
+        left: 52px;
+        width: 90%;
+        background-color: rgb(197, 240, 214);
+        padding: 16px 38px;
+        z-index: 55;
+    
+    }
+
+    .para-content-about{
+        font-size: 15px;
+        text-align: center;
+        line-height: 29px;
+       
+    }
+
+    .packages{
+      width: 100%;
+      height: auto;
+      padding: 16px 0px;  
+    }
+
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media(max-width:1130px){
+
+    .heading-lg-home{
+        font-size: 56px;
+        line-height: 74px;
+    }
+
+}
+@media(max-width:992){
+
+    .navbar-container{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: rgb(197, 240, 214);
+        padding: 16px 38px;
+        z-index: 55;
+    
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-nav .nav-item{
+        margin: 3px 0px;
+    }
+    .heading-lg-home{
+        font-size: 52px;
+        line-height: 80px;
+    }
+    .about{
+        width: 100%;
+        height: auto;
+        margin-bottom: 47px;
+    }
+    .para-about{
+       
+        max-width: 760px;
+        margin: auto;
+    }
+    .img-about{
+        width: 100%;
+        height: 300px;
+    
+    }
+    .para-content-about{
+        font-size: 20px;
+        text-align: center;
+        line-height: 29px;
+        font-weight: 500;
+        color: black;
+        max-width: 680px;
+    }
+    .services{
+        height: auto;
+        width: 100%;
+    }
+
+    footer .navbar-nav{
+        display: block;
+    }
+
+}
+@media(max-width:768px){
+
+    .heading-lg-home{
+        font-size: 40px;
+        line-height: 64px;
+    }
+    .img-package{
+        width: 100%;
+        height: 320px;
+    }
+    .para-about{
+
+        max-width: 400px;
+        font-size: 15px;
+        line-height: 15px;
+
+    }
+    .para-content-about{
+        font-size: 15px;
+        width: 100%;
+        line-height: 15px;
+    }
+    .heading-about{
+        font-size: 29px;
+
+    }
+    .heading-lg{
+        font-size: 36px;
+       
+    }
+}
+@media(max-width:576px){
+
+    .heading-lg-home{
+        font-size: 30px !important;
+        line-height: 48px;
+    }
+    .heading-home{
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+}
